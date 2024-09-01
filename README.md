@@ -187,6 +187,15 @@ rosrun rviz rviz -d `rospack find turtle_tf`/rviz/turtle_rviz.rviz
 If everything ran successfully, then **BOOM**. You've *finally done it*!
 
 ## 8. Useful tools
+* **Build-essential**: Installs a set of common build tools, ensuring that you have the necessary components to compile and build software on your Ubuntu system . To install, run the following command:
+```bash
+sudo apt-get update && sudo apt-get install build-essential
+```
+
+* **Noetic-gaezebo**: Gazebo is a free robotic simulation environment.It is used to test algorithms for robotic applications without the need for real hardware.
+```bash
+sudo apt-get install ros-noetic-gazebo-ros
+```
 *Note*: The below-mentioned reference is from [QSTP_Robot-Automation-using-ROS_2021](https://github.com/ERC-BPGC/QSTP_Robot-Automation-using-ROS_2021/blob/main/WEEK%201/Preparing%20your%20Development%20Environment.md).
 
 * **Git**: Fundamental tool in open source software development. Used for version control and sharing of code. To install, run the following command:
